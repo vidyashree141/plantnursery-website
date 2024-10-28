@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower Nursery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+        }
+
+        header {
+            background-color: #6aa84f;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        nav {
+            background-color: #38761d;
+            overflow: hidden;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            float: left;
+        }
+
+        nav ul li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            background-color: #4c9c2e;
+        }
+
+        .hero {
+            background-image: url('download(3).jpg');
+            background-size: cover;
+            background-position: center;
+            height: 250px;
+            text-align: center;
+            color: white;
+            padding-top: 100px;
+            padding-right: 100px;
+        }
+
+        .hero h2 {
+            font-size: 3em;
+            margin: 0;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        .content h3 {
+            color: #38761d;
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        .flower-cards {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .flower-card {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            width: 300px;
+            margin: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .flower-card img {
+            width: 100%;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+        }
+
+        .flower-card h4 {
+            color: #6aa84f;
+            padding: 10px;
+        }
+
+        footer {
+            background-color: #38761d;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1 >Welcome to Blossom Flower Plants Nursery</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">About</a></li>
+            <li><a href=".html">Flowers</a></li>
+            <li><a href="tree.html">trees</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+        <h2>Your Destination for Beautiful Flower plants</h2>
+    </section>
+
+    <section class="content">
+        <h3>Our Popular Flower Plants</h3>
+        <div class="flower-cards">
+            <div class="flower-card">
+                <img src="download.jpg" alt="Rose">
+                <h4>Rose</h4>
+            </div>
+            <div class="flower-card">
+                <img src="download (1).jpg" alt="Tulip">
+                <h4>Tulip</h4>
+            </div>
+            <div class="flower-card">
+                <img src="download (2).jpg" alt="marigold">
+                <h4>Marigold</h4>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Blossom Flower Nursery. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

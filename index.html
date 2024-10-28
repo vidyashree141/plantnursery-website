@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page with Background Image</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .header {
+            position: relative;
+            height: 100vh;
+            background-image: url('download(4).jpg'); /* Replace with your background image */
+            background-size: cover;
+            background-position: center;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 4rem;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1.5rem;
+        }
+
+        .gallery-section {
+            padding: 50px;
+            background-color: #f0f0f0;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 2.5rem;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .gallery-item {
+            background-color: white;
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="overlay">
+            <h1>Welcome to Our Blossom  Website</h1>
+            <p>Our Blossom Flower Plants Nursery is Ornamental nursery specialize in cultivating and nurturing a wide variety of beautiful, decorative plants. These nurseries focus on the aesthetics of plants, ranging from flowers, shrubs, to trees, enhancing landscapes and gardens.</p>
+        </div>
+    </div>
+
+    <div class="gallery-section">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="download1.jfif" alt="Image 1">
+            </div>
+            <div class="gallery-item">
+                <img src="download2.jfif" alt="Image 2">
+            </div>
+            <div class="gallery-item">
+                <img src="download3.jfif" alt="Image 3">
+            </div>
+            <div class="gallery-item">
+                <img src="download4.jfif" alt="Image 4">
+            </div>
+            <div class="gallery-item">
+                <img src="download5.webp" alt="Image 5">
+            </div>
+         
+        </div>   
+    
+    </div>
+</body>
+</html>

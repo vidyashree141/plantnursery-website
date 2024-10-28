@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Nursery Website</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        .contact-section {
+            background-color: #ffffff;
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        .contact-section h1 {
+            color: #4CAF50;
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .contact-section p {
+            font-size: 18px;
+            color: #555;
+            margin-bottom: 40px;
+        }
+
+        .contact-container {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .contact-container form {
+            width: 100%;
+            max-width: 600px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .contact-container input, .contact-container textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .contact-container input:focus, .contact-container textarea:focus {
+            outline: none;
+            border-color: #4CAF50;
+        }
+
+        .contact-container textarea {
+            resize: vertical;
+        }
+
+        .contact-container button {
+            padding: 15px;
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .contact-container button:hover {
+            background-color: #45a049;
+        }
+
+        .contact-info {
+            margin-top: 40px;
+            text-align: left;
+        }
+
+        .contact-info h3 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .contact-info p {
+            color: #777;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        .contact-info i {
+            color: #4CAF50;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="contact-section">
+        <h1>Contact Us</h1>
+        <p>If you have any questions or need assistance, please feel free to contact us.</p>
+
+        <div class="contact-container">
+            <form action="#" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+
+            <div class="contact-info">
+                <h3>Our Address:</h3>
+                <p><i class="fas fa-map-marker-alt"></i>123 Flower Road, Garden City, India</p>
+
+                <h3>Phone:</h3>
+                <p><i class="fas fa-phone-alt"></i>+91 12345 67890</p>
+
+                <h3>Email:</h3>
+                <p><i class="fas fa-envelope"></i>info@blindflowernursery.com</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
